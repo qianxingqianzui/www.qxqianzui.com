@@ -7,12 +7,12 @@
 
 .fill .clock {
     right: 10%;
-    top: 90px;
+    top: 120px;
     background-image: url("https://p6.douyinpic.com/obj/toutiao.cg.fiji/c1sl6l96rh75dvvmg2n0.png");
     background-repeat: no-repeat;
-    background-position: center 0;
-    width: 525px;
-    height: 682px;
+    background-position: center 300;
+    width: 1000px;
+    height: 1000px;
 }
 
 .centre {
