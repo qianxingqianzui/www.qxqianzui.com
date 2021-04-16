@@ -2,7 +2,7 @@ var clock = document.querySelector('#utility-clock')
 utilityClock(clock)
 
 //if (clock.parentNode.classList.contains('fill')) autoResize(clock, 500)     //适合无背景的大屏幕，用于桌面动态时钟（实测）
-if (clock.parentNode.classList.contains('fill')) autoResize(clock, 1500)   //适合有背景的壁纸
+
 
 function utilityClock(container) {
     var dynamic = container.querySelector('.dynamic')
