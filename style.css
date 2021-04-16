@@ -53,19 +53,10 @@
     position: relative;
     z-index: 99;
 }
-.circle-0{
-    background-image: url(https://www.qxqianzui.com/1/images/bg_1.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 750px;
-    height: 750px;
-    background-size: cover;
-    z-index: 0;
-}
 .circle-1 {
     background: white;
-    width: 12px;
-    height: 12px;
+    width: 36px;
+    height: 36px;
     z-index: 99;
 
 
