@@ -1,9 +1,6 @@
 var clock = document.querySelector('#utility-clock')
 utilityClock(clock)
 
-//if (clock.parentNode.classList.contains('fill')) autoResize(clock, 500)     //适合无背景的大屏幕，用于桌面动态时钟（实测）
-
-
 function utilityClock(container) {
     var dynamic = container.querySelector('.dynamic')
     var hourElement = container.querySelector('.hour')
