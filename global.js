@@ -27,7 +27,7 @@ $(function(){
     //    console.log($(this).position().top);
     //    console.log($('#J_nav').scrollTop());
     //    $('#J_nav').animate({
-    //        scrollTop:$this.offset().top + $('#J_nav').scrollTop() - 400
+    //        scrollTop:$this.offset().top + $('#J_nav').scrollTop() - 200
     //    });
     //});
 
