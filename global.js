@@ -11,10 +11,10 @@ $(function(){
             if($(this).attr('data-url')==data_url){
                 $(this).attr('class','cur');
                 //瞬间滚动
-                $('#J_nav').scrollTop($this.offset().top + $('#J_nav').scrollTop()-40-wh/2);
+                $('#J_nav').scrollTop($this.offset().top + $('#J_nav').scrollTop()-20-wh/2);
                 //动画滚动
                 //$('#J_nav').animate({
-                //    scrollTop:$this.offset().top + $('#J_nav').scrollTop() - 400
+                //    scrollTop:$this.offset().top + $('#J_nav').scrollTop() - 200
                 //});
             }
         });
