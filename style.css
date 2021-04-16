@@ -1,0 +1,153 @@
+﻿
+
+.clock {
+    position: absolute;
+    opacity: 1;
+}
+
+.fill .clock {
+    right: 10%;
+    top: 90px;
+    background-image: url("https://p6.douyinpic.com/obj/toutiao.cg.fiji/c1sl6l96rh75dvvmg2n0.png");
+    background-repeat: no-repeat;
+    background-position: center 0;
+    width: 525px;
+    height: 682px;
+}
+
+.centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+
+}
+
+.expand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.anchor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    z-index: 99;
+}
+
+.element {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.round {
+    border-radius: 296px;
+}
+.dynamic{
+    position: relative;
+    z-index: 99;
+}
+.circle-0{
+    background-image: url(https://www.qxqianzui.com/1/images/bg_1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 750px;
+    height: 750px;
+    background-size: cover;
+    z-index: 0;
+}
+.circle-1 {
+    background: white;
+    width: 12px;
+    height: 12px;
+    z-index: 99;
+
+
+}
+
+.circle-2 {
+    background: #FA9F22;
+    width: 8px;
+    height: 8px;
+    z-index: 99;
+}
+
+.circle-3 {
+    background: #222;
+    width: 4px;
+    height: 4px;
+    z-index: 99;
+}
+
+.second {
+    transform: rotate(180deg);
+}
+
+.minute {
+    transform: rotate(54deg);
+}
+
+.second-hand {
+    width: 2px;
+    height: 164px;
+    background: #FA9F22;
+    transform: translate(-50%,-100%) translateY(24px);
+}
+
+.hour {
+    transform: rotate(304.5deg);
+}
+
+.thin-hand {
+    width: 4px;
+    height: 50px;
+    background: #fff;
+    transform: translate(-50%,-100%);
+}
+
+.fat-hand {
+    width: 10px;
+    height: 57px;
+    border-radius: 10px;
+    background: #fff;
+    transform: translate(-50%,-100%) translateY(-18px);
+}
+
+.minute-hand {
+    height: 112px;
+}
+
+.hour-text {
+    position: absolute;
+    font: 40px Hei, Helvetica, Arial, sans-serif;
+    color: #fff;
+    transform: translate(-50%,-50%);
+}
+
+.hour-10 {
+    padding-left: 0.4ex;
+}
+.hour-11 {
+    padding-left: 0.25ex;
+}
+
+.minute-text {
+    position: absolute;
+    font: 12px Avenir Next, Helvetica, Arial, sans-serif;
+    color: #fff;
+    transform: translate(-50%,-50%);
+}
+
+.minute-line {
+    background: #fff;
+    width: 1px;
+    height: 9px;
+    transform: translate(-50%,-100%) translateY(-131px);
+    opacity: 0.34;
+}
