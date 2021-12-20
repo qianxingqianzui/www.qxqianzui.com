@@ -52,10 +52,10 @@ function Kefu(Obj) {
     "                </div>"+
     "            </div>"+
     "            <div class=\"floor\">"+
-    "                <a href=\""+"http://wpa.qq.com/msgrd?v=3&amp;uin="+Obj.qq+"&amp;site=qq&amp;menu=yes"+"\"  class=\"qqlink\" target=\"_blank\">"+
+    "                <a href="https://qm.qq.com/cgi-bin/qm/qr?k=P79g-XTfJ3t4kI4f_FnYUktMV_tqhHKP&authKey=85ImQWm1EoudCyKS13GFx4a7gzL9yXHisjwbs4Z907t2cjBRPTroy0x2k0qXg9Vm&group_code=580092872"  class=\"qqlink\" target=\"_blank\">"+
     "                </a>"+
     "                <div class=\"absbox\">"+
-    "                    <div class=\"qq\">QQ客服</div>"+
+    "                    <div class=\"qq\">加入QQ群</div>"+
     "                </div>"+
     "            </div>"+wechatPerson+wechatofficial+
     "            </div>"+
